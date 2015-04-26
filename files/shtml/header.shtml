@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 30px" role="navigation">
+
+<div class="container">      
+
+	<div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed btn-primary" data-toggle="collapse" data-target="#cc-collapsible">
+        		<span class="sr-only">Toggle navigation</span>
+              	<i class="glyphicon glyphicon-search"></i>            
+            	MENU
+            </button>
+    		<a class="navbar-brand" href="{{headerHomeUrl}}">
+<span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+FlowerStore</a>
+    </div>
+
+    
+        <div class="collapse navbar-collapse" id="cc-collapsible">
+	        <ul class="nav navbar-nav navbar-right" style="margin-left:20px;">
+{{# isSuperuser?}}
+              <li class="{{navItemListActive}}">
+                <a title="Edit Users" class="internal page" href="/user-edit/foobar">EDIT USERS</a>
+              </li>
+{{/ isSuperuser?}}
+              <li class="{{navItemFindActive}}">
+                <a title="Find" class="internal page" href="{{logInOrOutUrl}}">{{logInOrOutText}}{{loggedInUser}}</a>
+              </li>
+   		    </ul>        	        
+        	<form accept-charset="utf-8" method="post" action="{{headerSearchUrl}}" role="search" class="navbar-form" style="max-width:500px">
+                <div class="form-group" style="display:inline;">
+                	<div class="input-group">
+                  		<input class="form-control" placeholder="Search for flowers" value="{{query}}" name="query" type="text" />
+                  		<div class="input-group-btn">
+                  			<button class="btn btn-primary" type="submit">
+	              			<i class="glyphicon glyphicon-search"></i>
+                  			</button>
+                  		</div>
+                	</div>
+                </div>
+		  	</form>           
+          
+         </div><!--collapse-->
+          
+</div> 
+</nav>
+

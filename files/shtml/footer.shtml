@@ -1,0 +1,7 @@
+<div id="footer">
+  <div class="container">
+    <div class="col-xs-12 col-sm-4"> <p>&nbsp;</p><font size="+1">FlowerStore</font> is an example application built using Teapot, Mustache, Voyage and Mongo. (Powered by Pharo Smalltalk)<br/><br />
+  &copy; 2015 FlowerStore <p>&nbsp;</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+      <div class="container">
+        <form accept-charset="utf-8" method="post" action="/user" class="form-horizontal" role="form">
+          <input type="hidden" name="voyageId" value="{{voyageId}}" />
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="UserId">User ID</label>
+            <div class="col-sm-6">
+              <select name="userVoyageId" class="form-control">
+{{# users}}
+                <option value="{{userVoyageId}}">{{userId}}</option>
+{{/ users}}
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button class="btn btn-primary submit" type="submit" name="btn-save">Save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <br />
+      <script>
+      initialize();
+      </script>

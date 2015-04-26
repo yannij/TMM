@@ -1,0 +1,59 @@
+<div class="container-fluid">
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+
+<form class="login" method="post" action="/login" style="min-width:330px; max-width:330px; margin-left: auto; margin-right: auto; text-align:center">
+<h3>Sign in</h3>
+<p>&nbsp;</p>
+
+<div class="col-md-10 col-md-offset-1">
+<button onclick="window.location.href='{{googleOauth2Url}}'" type="button" style="margin-bottom:8px; min-width:250px; text-align:left" class="btn btn-default btn-lg"><img src="../img/gplus.png" /> Sign in with Google</button>
+</div>
+
+<div class="col-md-10 col-md-offset-1">
+<button onclick="window.location.href='{{facebookOauth2Url}}'" type="button" style="margin-bottom:8px; min-width:250px; text-align:left" class="btn btn-default btn-lg"><img src="../img/facebook.png" /> Sign in with Facebook</button>
+</div>
+
+<div class="col-md-10 col-md-offset-1">
+<button onclick="window.location.href='{{twitterOauth1Url}}'" type="button" style="margin-bottom:8px; min-width:250px; text-align:left" class="btn btn-default btn-lg"><img src="../img/twitter.png" /> Sign in with Twitter</button>
+</div>
+
+<div class="col-md-10 col-md-offset-1">
+  <hr style="border-color:#CCC" />
+  <h5>or, sign in with email</h5>
+</div>
+
+<div class="form-group col-md-10 col-md-offset-1">
+  <div class="input-group">
+    <div class="input-group-addon">
+      <i class="glyphicon glyphicon-envelope"></i>
+    </div>
+    <input type="text" name="email" class="form-control" placeholder="email">
+  </div>
+</div>
+<div class="form-group col-md-10 col-md-offset-1">
+  <div class="input-group">
+    <div class="input-group-addon">
+      <i class="glyphicon glyphicon-lock"></i>
+    </div>
+    <input type="password" name="password" class="form-control" placeholder="password">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <p style="font-size:small; text-align: right; padding-right:15px">
+      <a href="/forgot-password">Forgot password?</a>
+    </p>
+    <button class="btn btn-primary submit" type="submit" name="btn-Signin">Sign in</button>
+    &nbsp;<font size="-1">Not yet joined?</font>&nbsp;<a href="/register">Register</a>
+    <br />&nbsp;
+  </div>
+</div>
+
+</form>
+</div>
+                
+</div>
+</div>

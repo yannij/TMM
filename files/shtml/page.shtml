@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{> htmlhead }}
+<body onload="onLoad()">
+<div id="wrap">
+{{> header }}
+{{> content }}
+</div>
+{{> footer }}
+<script type="text/javascript">/*<![CDATA[*/function onLoad(){};/*]]>*/</script>
+</body>
+</html>

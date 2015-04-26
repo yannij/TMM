@@ -1,0 +1,16 @@
+<head>
+<title>FlowerStore</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!--
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/tmm.css" />
+
+</head>

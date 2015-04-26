@@ -1,0 +1,42 @@
+<div class="container">
+
+<div class="row-fluid">
+{{# list }}
+  <div class="col-xs-6 col-md-3">
+    <a href="{{href}}" class="thumbnail">
+      <img src="/img/{{img}}"/>
+      {{heading}}
+    </a>
+  </div>
+{{/ list }}
+</div>
+
+</div>
+
+<br />
+
+<div class="full-width gradient" style="background-color:#F6F6F6" >
+<div class="container" style="text-align:center;">
+<h3><font color="#333333" style="font-weight:normal">Recommended for you</font></h3><br/>
+
+<div class="row-fluid">
+{{# recommended }}
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="/img/{{img}}" alt="{{mg}}" height="242" width="200">
+      <div class="caption">
+        <h3>{{heading}}</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="{{href}}" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+{{/ recommended }}
+</div>
+
+</div>
+</div>
+<br />
+</div>
+
+

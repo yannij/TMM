@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row">      
+        <div class="col-lg-8 col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+{{userId}}<br>
+<pre>
+{{info}}
+</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+</div>
