@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTMM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTMM",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
