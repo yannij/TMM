@@ -1,0 +1,16 @@
+{
+	"category" : "TMM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"userId",
+		"providerName",
+		"passwordHash" ],
+	"name" : "TMMUser",
+	"pools" : [
+		 ],
+	"super" : "TMMDomainObject",
+	"type" : "normal" }

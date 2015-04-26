@@ -1,0 +1,39 @@
+template
+moustacheListZ
+
+	^'
+      <div class="container" style="display:table">
+
+        <div class="col-lg-12 col-md-12">
+          <table class="report table table-striped table-condensed table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+{{# list }}
+              <tr>
+                <td>
+                  {{flowerName}}
+                </td>
+                <td>
+                  {{flowerDescription}}
+                </td>
+                <td>
+<a href="{{flowerEditUrl}}"><i class="glyphicon glyphicon-pencil"></i></a>
+                </td>
+                <td>
+<a href="{{flowerEditUrl}}"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </td>
+              </tr>
+{{/ list }}
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+'

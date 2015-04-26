@@ -1,0 +1,4 @@
+sso
+isOAuth2Callback: aRequest
+
+	^aRequest uri queryKeys includes: 'code'

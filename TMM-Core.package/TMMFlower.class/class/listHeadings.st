@@ -1,0 +1,7 @@
+template
+listHeadings
+
+	^#(
+'Name'
+'Description'
+)

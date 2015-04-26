@@ -1,0 +1,4 @@
+converting
+asAddDictionary
+
+	^self asDictionary

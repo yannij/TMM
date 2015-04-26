@@ -1,0 +1,16 @@
+{
+	"category" : "TMM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"description",
+		"price" ],
+	"name" : "TMMFlower",
+	"pools" : [
+		 ],
+	"super" : "TMMDomainObject",
+	"type" : "normal" }

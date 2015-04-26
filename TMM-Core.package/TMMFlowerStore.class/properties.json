@@ -1,0 +1,18 @@
+{
+	"category" : "TMM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Config" ],
+	"commentStamp" : "YanniChiu 4/24/2015 23:30",
+	"instvars" : [
+		"server",
+		"staticFilePath",
+		"ssoData",
+		"image",
+		"logoFileName" ],
+	"name" : "TMMFlowerStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

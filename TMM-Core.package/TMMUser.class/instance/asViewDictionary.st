@@ -1,0 +1,4 @@
+converting
+asViewDictionary
+
+	^self asDictionary

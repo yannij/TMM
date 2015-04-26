@@ -1,0 +1,4 @@
+*TMM-Core
+znRequest
+	
+	^ znRequest

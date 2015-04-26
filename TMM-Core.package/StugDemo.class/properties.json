@@ -1,0 +1,14 @@
+{
+	"category" : "TMM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StugDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

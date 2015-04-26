@@ -1,0 +1,2 @@
+*TMM-Core
+validateKind: anObject
