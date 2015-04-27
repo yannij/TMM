@@ -2,16 +2,18 @@ route - login
 addRouteLogin
 
 	self server
-		GET: '/login' -> [:req |
-			(self headerList: req)
-				at: 'googleOauth2Url' put: (self ssoGoogle: req znRequest);
-				at: 'facebookOauth2Url' put: (self ssoFacebook: req znRequest);
-				at: 'twitterOauth1Url' put: (self ssoTwitter: req znRequest);
-				yourself ];
+		GET: '/login' -> [:req | self actionLoginGet: req ];
 		output: (self mustacheNamed: 'login');
-		GET: '/logout' -> [:req |
-			req znRequest session removeAttribute: 'userid'.
-			self ssoLogout: req znRequest];
+		POST: '/login' -> [:req | self actionLoginPost: req ];
+		output: (self mustacheNamed: 'debug');
+
+		GET: '/logout' -> [:req | self actionLogoutGet: req];
 		output: [ZnResponse redirect: '/'];
+
+		GET: '/register' -> [:req | self actionRegisterGet: req ];
+		output: (self mustacheNamed: 'register');
+		POST: '/register' -> [:req | self actionRegisterPost: req ];
+		output: (self mustacheNamed: 'debug');
+
 		yourself.
 		

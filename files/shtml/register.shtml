@@ -1,0 +1,42 @@
+<div id="form-wrapper" class="form-wrapper">
+
+<form class="login active" method="post" action="/register" style="text-align:center">
+<h3>Register</h3>
+<p>&nbsp;</p>
+<div class="container">
+
+<div class="col-xs-12 form-group" style="max-width:300px">
+  <div class="input-group">
+    <div class="input-group-addon" id="basic-addon1">
+      <i class="glyphicon glyphicon-envelope"></i>
+    </div>
+    <input type="text" name="email" class="form-control" placeholder="email">
+  </div>
+</div>
+<div class="col-xs-12 form-group">
+  <div class="input-group">
+    <div class="input-group-addon" id="basic-addon1">
+      <i class="glyphicon glyphicon-lock"></i>
+    </div>
+    <input type="password" name="password" class="form-control" placeholder="password">
+  </div>
+</div>
+<div class="col-xs-12 form-group">
+  <div class="input-group">
+    <div class="input-group-addon" id="basic-addon1">
+      <i class="glyphicon glyphicon-lock"></i>
+    </div>
+    <input type="password" name="password2" class="form-control" placeholder="repeat password">
+  </div>
+</div>
+
+<br />
+<div class="form-group">
+  <button class="btn btn-primary submit" type="submit" name="btn-Signin">Submit</button>
+</div>
+<div class="clear"></div>
+</div>
+
+</form>
+                
+</div>
