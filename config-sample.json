@@ -1,0 +1,12 @@
+{
+"google.key": "zzzzzzzz.apps.googleusercontent.com",
+"google.secret": "secret",
+"facebook.key": "zzzzzzzzz",
+"facebook.secret": "secret",
+"twitter.key": "zzzzzzzzz",
+"twitter.secret": "secret",
+
+"superuser": "fubar",
+"urlPrefix": "http://fubar.zzz/",
+"staticFilePath": "files"
+}
