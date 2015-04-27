@@ -28,6 +28,11 @@ Pharo4.0
 ### Pharo
 To install in **Pharo**:
 
+```
+CodeImporter evaluateString:
+  'https://raw.githubusercontent.com/yannij/TMM/master/ConfigurationOfTMM.st' asUrl retrieveContents
+```
+
 ```Smalltalk
 ((Smalltalk at: #ConfigurationOfTMM) project version: #'stable') load.
 ```
