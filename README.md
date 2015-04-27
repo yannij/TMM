@@ -15,7 +15,7 @@ Some useful links:
  * [Mustache blog post](http://norbert.hartl.name/blog/2013/10/03/mustache-templates-for-smalltalk/)
  * [Mustache website](https://mustache.github.io/)
  * [Voyage/MongoDB blog post](http://tulipemoutarde.be/2012/05/24/mongodb-with-voyage-in-pharo.html)
- * [Voyage - Pharo repository](http://smalltalkhub.com/mc/estebanlm/Voyage/main)
+ * [Voyage - Pharo repository](http://smalltalkhub.com/#!/~estebanlm/Voyage)
  * [MongoDB website](https://www.mongodb.org/)
  * [Zinc SSO documentation](https://github.com/svenvc/docs/blob/master/zinc/zinc-sso-paper.md)
 
