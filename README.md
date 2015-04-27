@@ -30,9 +30,28 @@ To install in **Pharo**:
 
 ```
 CodeImporter evaluateString:
-  'https://raw.githubusercontent.com/yannij/TMM/master/ConfigurationOfTMM.st' asUrl retrieveContents
+  'https://raw.githubusercontent.com/yannij/TMM/master/ConfigurationOfTMM.st' asUrl retrieveContents.
 ```
 
 ```Smalltalk
 ((Smalltalk at: #ConfigurationOfTMM) project version: #'stable') load.
 ```
+
+## Configure
+
+Find the config-sample.json file in the git filetree. Copy the file to the image directory, and name it "config.json". Edit the value of "staticFilePath" - point it at the "files" directory in the git filetree.
+
+## Run
+
+After MongoDB is running, set up the demo repository using:
+```
+TMMFlowerStore setUpMongo.
+```
+
+Start the web server using:
+```
+TMMFlowerStore runLocal.
+```
+
+From a web browser, go to "http://localhost:1701".
+
