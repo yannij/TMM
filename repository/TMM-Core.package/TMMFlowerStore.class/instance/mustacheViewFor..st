@@ -9,5 +9,5 @@ mustacheViewFor: aClass
 		ZnResponse ok: (ZnStringEntity 
 			with: (((Smalltalk at: #MustacheTemplate) on: (self templateContents: 'page'))
 				value: model
-				partials: (self partialsWithTemplateContents: aClass moustacheView))
+				partials: (self partialsWithTemplateContents: aClass mustacheView))
 			type: ZnMimeType textHtml) ]

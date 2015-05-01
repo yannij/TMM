@@ -5,8 +5,8 @@ printOn: aStream
 
 	aStream
 		nextPut: $(;
-		nextPutAll: self name printString;
+		nextPutAll: self providerName printString;
 		nextPutAll: ', ';
-		nextPutAll: self description printString;
+		nextPutAll: self userId printString;
 		nextPut: $);
 		yourself

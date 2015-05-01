@@ -1,0 +1,4 @@
+mustache html
+templateFieldNamePrefix
+
+	^self magritteDescription collectionName

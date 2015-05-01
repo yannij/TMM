@@ -4,6 +4,7 @@ addRoutes
 	self addRouteHome.
 	self addRouteSearch.
 	self addRouteFlower.
+	self addRouteObject.
 	self addRouteLogin.
 	self addRouteLoginGoogle.
 	self addRouteLoginFacebook.
